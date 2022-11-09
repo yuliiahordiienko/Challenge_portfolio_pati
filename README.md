@@ -12,12 +12,12 @@
 ###### tag_name_Scouts_Panel_xpath
 ###### //*[@id="__next"]/form/div/div[1]/h5
 ###### //*[text()=“Scouts Panel”]
-###### //child::div/a
+
 
 ###### placeholder_login_xpath
 ###### //*[@id="login"]
 ###### //*[text()=“Login”]
-###### //child::div/a
+
 
 ###### placeholder_password_xpath
 ###### //*[@id="password"]
@@ -27,7 +27,7 @@
 ###### remind_password_hyperlink_xpath
 ###### //*[@id="__next"]/form/div/div[1]/a
 ###### //*[text()="Remind password"]
-###### //child::div/a
+
 
 selectbox_english_polish_xpath
 //*[@id="__next"]/form/div/div[2]/div/div
