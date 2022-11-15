@@ -7,7 +7,7 @@
 ###### I am very happy to take part in this challenge and will do my best to become a part of the Dare IT team.  Dare IT is my path to my dream 💪.
 
 
-# “TASK 2: selectors”
+# Task 2: selectors.
 
 ## tag_name_Scouts_Panel_xpath
 ###### //[contains(@class, "MuiTypography-h5")]
