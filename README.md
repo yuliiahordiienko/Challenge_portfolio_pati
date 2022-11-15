@@ -9,32 +9,39 @@
 
 # “TASK 2: selectors”
 
-###### tag_name_Scouts_Panel_xpath
+## tag_name_Scouts_Panel_xpath
+###### //[contains(@class, "MuiTypography-h5")]
 ###### //*[@id="__next"]/form/div/div[1]/h5
 ###### //*[text()=“Scouts Panel”]
 
 
-###### placeholder_login_xpath
+## placeholder_login_xpath
+
 ###### //*[@id="login"]
 ###### //*[text()=“Login”]
+###### //*[@name="Login"]
 
 
-###### placeholder_password_xpath
+## placeholder_password_xpath
+
 ###### //*[@id="password"]
 ###### //*[text()=“Password”]
-//child::div/a
+###### //*[@name="Password"]
 
-###### remind_password_hyperlink_xpath
+## remind_password_xpath
+
 ###### //*[@id="__next"]/form/div/div[1]/a
 ###### //*[text()="Remind password"]
+###### //[contains(@class, "MuiTypography-root MuiLink-root")]
 
+## selectbox_languages_xpath
 
-selectbox_english_polish_xpath
-//*[@id="__next"]/form/div/div[2]/div/div
-//select*[listbox=“English”]
-//*[@id="__next"]/form/div/div[2]/div/svg
+###### //*[@id="__next"]/form/div/div[2]/div/div
+###### //select*[listbox=“English”]
+###### //*[@id="__next"]/form/div/div[2]/div/svg
 
-button_sign_in_hyperlink_xpath
-//*[@id="__next"]/form/div/div[2]/button/span[1]
-//*[text()=“SIGN IN]
-//child::div/a
+## sign_in_button_xpath
+
+###### //*[@id="__next"]/form/div/div[2]/button/span[1]
+###### //*[text()="SIGN IN"]
+###### //[@class="MuiButton-label"]
